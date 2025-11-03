@@ -68,7 +68,7 @@ export function Header() {
                   href="/"
                   className="mb-4 font-headline text-xl font-bold text-primary"
                 >
-                  Leidy Natalia Henao Rojas
+                  Leidy's Portfolio
                 </Link>
                 {navLinks.map((link) => (
                   <a

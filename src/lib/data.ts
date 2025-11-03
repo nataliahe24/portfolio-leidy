@@ -95,6 +95,7 @@ export const services = [
     title: "Backend Development",
     description:
       "Building robust, scalable, and secure server-side applications and APIs using Java, Spring Boot, and RESTful APIs principles.",
+    icon: Server,
   },
   {
     title: "Full-Stack Solutions",

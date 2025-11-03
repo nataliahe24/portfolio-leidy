@@ -11,9 +11,9 @@
 
 ## Style Guidelines:
 
-- Primary color: Deep navy blue (#8E27F5) to convey professionalism and trust.
+- Primary color: Deep navy blue (#1A237E) to convey professionalism and trust.
 - Background color: Very light gray (#F5F5F5) for a clean, modern look.
-- Accent color: Soft lavender (#EEDEFF) to add a touch of creativity and sophistication.
+- Accent color: Soft lavender (#C5CAE9) to add a touch of creativity and sophistication.
 - Headline font: 'Poppins', a geometric sans-serif for a contemporary and clean aesthetic.
 - Body font: 'PT Sans', a humanist sans-serif providing readability and modern feel. This pairs well with the Headline Font.
 - Use clean, minimalist icons to represent skills, technologies, and services.

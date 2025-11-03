@@ -94,8 +94,7 @@ export const services = [
   {
     title: "Backend Development",
     description:
-      "Building robust, scalable, and secure server-side applications and APIs using Node.js, Express, and Python.",
-    icon: Server,
+      "Building robust, scalable, and secure server-side applications and APIs using Java, Spring Boot, and RESTful APIs principles.",
   },
   {
     title: "Full-Stack Solutions",

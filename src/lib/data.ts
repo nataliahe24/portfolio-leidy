@@ -69,6 +69,7 @@ export const skills = [
   {
     category: "Backend",
     items: [
+      { name: "Java", icon: Code },
       { name: "Node.js / Express", icon: Server },
       { name: "RESTful API", icon: Cog },
     ],

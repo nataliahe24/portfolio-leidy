@@ -42,7 +42,6 @@ export function RecommendationForm({ onRecommendation, setIsLoading }: Recommend
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsLoading(true);
-    setRecommendations(null);
     try {
       const result = await generateProjectRecommendations(values);
       onRecommendation(result);

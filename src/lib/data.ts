@@ -45,8 +45,8 @@ export const skills = [
     items: [
       { name: "React / Next.js", icon: Code },
       { name: "TypeScript", icon: Code },
-      { name: "JavaScript (ES6+)", icon: Code },
-      { name: "HTML5 & CSS3", icon: Code },
+      { name: "JavaScript", icon: Code },
+      { name: "HTML & CSS", icon: Code },
       { name: "Tailwind CSS", icon: Paintbrush },
     ],
   },
@@ -54,14 +54,13 @@ export const skills = [
     category: "Backend",
     items: [
       { name: "Node.js / Express", icon: Server },
-      { name: "Firebase", icon: Server },
-      { name: "REST & GraphQL APIs", icon: Cog },
+      { name: "RESTful API", icon: Cog },
     ],
   },
   {
     category: "Databases & Tools",
     items: [
-      { name: "MongoDB, PostgreSQL", icon: Database },
+      { name: "MongoDB, PostgreSQL & MySQL", icon: Database },
       { name: "Git & GitHub", icon: Github },
       { name: "Jest / Testing Library", icon: Cog },
     ],

@@ -37,6 +37,22 @@ export const projects = [
     githubLink: "https://github.com/nataliahe24/task-api",
     image: "project3",
   },
+  {
+    id: "project-4",
+    title: "Project Management Dashboard",
+    description:
+      "A modern project management system with AI-powered analytics. Features complete CRUD operations, real-time statistics, Google Gemini AI integration for intelligent insights and recommendations, interactive charts, and responsive design built with React and TypeScript.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Google Gemini AI",
+    ],
+    githubLink: "https://github.com/nataliahe24/project-front-app",
+    image: "project4",
+  },
 ];
 
 export const skills = [

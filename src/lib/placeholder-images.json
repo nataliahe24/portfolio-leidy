@@ -23,6 +23,12 @@
       "description": "Project 3 from Leidy's portfolio.",
       "imageUrl": "/assets/project3.png",
       "imageHint": "Leidy's project 3"
+    },
+    {
+      "id": "project4",
+      "description": "Project Management Dashboard with AI.",
+      "imageUrl": "/assets/project4.png",
+      "imageHint": "Project Manager Dashboard"
     }
   ]
 }

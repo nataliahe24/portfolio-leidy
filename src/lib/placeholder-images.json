@@ -3,26 +3,26 @@
     {
       "id": "profile",
       "description": "A professional headshot of Leidy.",
-      "imageUrl": "https://images.unsplash.com/photo-1557053908-4793c484d06f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjAzMDE4OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman portrait"
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQGKhhLTIk5nWw/profile-displayphoto-crop_800_800/B4EZg5y9yLHgAM-/0/1753316318932?e=1763596800&v=beta&t=EIhx8K0oqBEA61_3mj2lHxqLx5ZkIzV4A02OIEGhqtg",
+      "imageHint": "Leidy professional portrait"
     },
     {
       "id": "project1",
-      "description": "Abstract representation of an e-commerce platform.",
-      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjIwNzU5MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "online shopping"
+      "description": "Project 1 from Leidy's portfolio.",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4E2DAQEkfpqdeFA4Jg/profile-treasury-image-shrink_800_800/B4EZgQWW3JHoAY-/0/1752620957179?e=1762761600&v=beta&t=mb6NXofqKDvhE-fisGxrt4Sub2sQ8XPbVzHAt6zz3GQ",
+      "imageHint": "Leidy's project 1"
     },
     {
       "id": "project2",
-      "description": "Abstract representation of a project management tool.",
-      "imageUrl": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjIxNTIyODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "team collaboration"
+      "description": "Project 2 from Leidy's portfolio.",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D2DAQGazXBHhujZcQ/profile-treasury-image-shrink_800_800/B4DZhhWdzFGkAY-/0/1753979940257?e=1762761600&v=beta&t=LKjFFcWLlZ5FS-vPP0ByeL0_7c48bB1HlnslmuCc1bE",
+      "imageHint": "Leidy's project 2"
     },
     {
       "id": "project3",
-      "description": "Abstract representation of a recipe sharing app.",
-      "imageUrl": "https://images.unsplash.com/photo-1630441508966-431c08536d1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmb29kJTIwY29va2luZ3xlbnwwfHx8fDE3NjIxMDg1MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "food cooking"
+      "description": "Project 3 from Leidy's portfolio.",
+      "imageUrl": "/assets/project3.png",
+      "imageHint": "Leidy's project 3"
     }
   ]
 }

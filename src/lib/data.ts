@@ -1,82 +1,95 @@
-import { Github, Linkedin, Code, Server, Database, Cog, Paintbrush, Smartphone } from 'lucide-react';
+import {
+  Github,
+  Linkedin,
+  Code,
+  Server,
+  Database,
+  Cog,
+  Paintbrush,
+  Smartphone,
+} from "lucide-react";
 
 export const projects = [
   {
-    id: 'project-1',
-    title: 'E-commerce Platform',
-    description: 'A full-featured e-commerce platform with a modern, responsive design. Includes product catalog, shopping cart, and a secure checkout process.',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
-    githubLink: 'https://github.com',
-    image: 'project1',
+    id: "project-1",
+    title: "Real Estate App",
+    description:
+      "A web application for the real estate sector, streamlining property sales and rentals. Sellers can list properties with details such as price, rooms, bathrooms, and categories, while buyers can browse listings, schedule visits, and contact owners.",
+    technologies: ["Angular", "TypeScript", "SCSS", "HTML"],
+    githubLink: "https://github.com/nataliahe24/Real-estate-app",
+    image: "project1",
   },
   {
-    id: 'project-2',
-    title: 'Project Management Tool',
-    description: 'A collaborative project management tool to help teams organize tasks, track progress, and meet deadlines. Features Kanban boards and real-time updates.',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase'],
-    githubLink: 'https://github.com',
-    image: 'project2',
+    id: "project-2",
+    title: "My Fritter App",
+    description:
+      "A Java-based application built with Gradle. Features order management, image upload capabilities, and comprehensive error handling API.",
+    technologies: ["Java", "Gradle", "REST API"],
+    githubLink: "https://github.com/nataliahe24/MyFritterApp",
+    image: "project2",
   },
   {
-    id: 'project-3',
-    title: 'Recipe Sharing App',
-    description: 'A social application for users to share, discover, and save recipes. Implemented user authentication, recipe submission forms, and a powerful search functionality.',
-    technologies: ['Vue.js', 'Supabase', 'PostgreSQL', 'Cloudinary'],
-    githubLink: 'https://github.com',
-    image: 'project3',
+    id: "project-3",
+    title: "Task API",
+    description:
+      "A TypeScript-based REST API for task management. Provides endpoints for creating, updating, and managing tasks with full CRUD operations.",
+    technologies: ["TypeScript", "JavaScript", "Node.js", "REST API"],
+    githubLink: "https://github.com/nataliahe24/task-api",
+    image: "project3",
   },
 ];
 
 export const skills = [
-  { 
-    category: 'Frontend',
+  {
+    category: "Frontend",
     items: [
-      { name: 'React / Next.js', icon: Code },
-      { name: 'TypeScript', icon: Code },
-      { name: 'JavaScript (ES6+)', icon: Code },
-      { name: 'HTML5 & CSS3', icon: Code },
-      { name: 'Tailwind CSS', icon: Paintbrush },
-    ]
+      { name: "React / Next.js", icon: Code },
+      { name: "TypeScript", icon: Code },
+      { name: "JavaScript (ES6+)", icon: Code },
+      { name: "HTML5 & CSS3", icon: Code },
+      { name: "Tailwind CSS", icon: Paintbrush },
+    ],
   },
   {
-    category: 'Backend',
+    category: "Backend",
     items: [
-      { name: 'Node.js / Express', icon: Server },
-      { name: 'Python / Django', icon: Server },
-      { name: 'Firebase', icon: Server },
-      { name: 'REST & GraphQL APIs', icon: Cog },
-    ]
+      { name: "Node.js / Express", icon: Server },
+      { name: "Firebase", icon: Server },
+      { name: "REST & GraphQL APIs", icon: Cog },
+    ],
   },
   {
-    category: 'Databases & Tools',
+    category: "Databases & Tools",
     items: [
-      { name: 'MongoDB, PostgreSQL', icon: Database },
-      { name: 'Git & GitHub', icon: Github },
-      { name: 'Docker', icon: Server },
-      { name: 'Jest / Testing Library', icon: Cog },
-    ]
-  }
+      { name: "MongoDB, PostgreSQL", icon: Database },
+      { name: "Git & GitHub", icon: Github },
+      { name: "Jest / Testing Library", icon: Cog },
+    ],
+  },
 ];
 
 export const services = [
   {
-    title: 'Frontend Development',
-    description: 'Creating beautiful, responsive, and performant user interfaces with modern frameworks like React and Next.js.',
+    title: "Frontend Development",
+    description:
+      "Creating beautiful, responsive, and performant user interfaces with modern frameworks like React and Next.js.",
     icon: Paintbrush,
   },
   {
-    title: 'Backend Development',
-    description: 'Building robust, scalable, and secure server-side applications and APIs using Node.js, Express, and Python.',
+    title: "Backend Development",
+    description:
+      "Building robust, scalable, and secure server-side applications and APIs using Node.js, Express, and Python.",
     icon: Server,
   },
   {
-    title: 'Full-Stack Solutions',
-    description: 'Delivering end-to-end web applications, from database design to UI implementation, for a complete digital product.',
+    title: "Full-Stack Solutions",
+    description:
+      "Delivering end-to-end web applications, from database design to UI implementation, for a complete digital product.",
     icon: Smartphone,
   },
 ];
 
 export const socialLinks = {
-  github: 'https://github.com',
-  linkedin: 'https://linkedin.com',
+  github: "https://github.com/nataliahe24",
+  linkedin: "https://www.linkedin.com/in/leidy-natalia-henao-rojas-04250a215/",
 };

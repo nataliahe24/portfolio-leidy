@@ -1,11 +1,11 @@
-import Image from 'next/image';
-import { Button } from './ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Download, MessageCircle } from 'lucide-react';
-import Link from 'next/link';
+import Image from "next/image";
+import { Button } from "./ui/button";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { Download, MessageCircle } from "lucide-react";
+import Link from "next/link";
 
 export function HeroSection() {
-  const profileImage = PlaceHolderImages.find(p => p.id === 'profile');
+  const profileImage = PlaceHolderImages.find((p) => p.id === "profile");
 
   return (
     <section id="about" className="w-full py-20 md:py-32">
@@ -32,7 +32,9 @@ export function HeroSection() {
             Full-Stack Developer
           </p>
           <p className="max-w-[600px] text-foreground/70 md:text-xl/relaxed">
-            I build elegant and efficient web solutions. With a passion for clean code and user-centric design, I transform complex problems into beautiful, intuitive digital experiences.
+            I build elegant and efficient web solutions. With a passion for
+            clean code and user-centric design, I transform complex problems
+            into beautiful, intuitive digital experiences.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center md:justify-start pt-4">
             <Button asChild size="lg">
@@ -42,7 +44,7 @@ export function HeroSection() {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <a href="/Leidy-Resume.pdf" download>
+              <a href="/assets/cv_leidy.pdf" download>
                 <Download className="mr-2" />
                 Download CV
               </a>

@@ -26,7 +26,7 @@ export function HeroSection() {
         </div>
         <div className="space-y-4 text-center md:text-left">
           <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-primary">
-            Leidy's Portfolio
+             Leidy Natalia Henao Rojas
           </h1>
           <p className="font-headline text-2xl font-medium text-foreground/80">
             Full-Stack Developer

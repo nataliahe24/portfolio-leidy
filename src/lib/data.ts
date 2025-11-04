@@ -15,7 +15,15 @@ export const projects = [
     title: "Real Estate App",
     description:
       "A web application for the real estate sector, streamlining property sales and rentals. Sellers can list properties with details such as price, rooms, bathrooms, and categories, while buyers can browse listings, schedule visits, and contact owners.",
-    technologies: ["Angular", "TypeScript", "SCSS", "HTML"],
+    technologies: [
+      "Java",
+      "Spring Security",
+      "Hexagonal Architecture",
+      "Angular",
+      "TypeScript",
+      "SCSS",
+      "HTML",
+    ],
     githubLink: "https://github.com/nataliahe24/Real-estate-app",
     image: "project1",
   },
@@ -24,7 +32,7 @@ export const projects = [
     title: "My Fritter App",
     description:
       "A Java-based application built with Gradle. Features order management, image upload capabilities, and comprehensive error handling API.",
-    technologies: ["Java", "Gradle", "REST API"],
+    technologies: ["Java", "Angular", "SCSS", "HTML"],
     githubLink: "https://github.com/nataliahe24/MyFritterApp",
     image: "project2",
   },

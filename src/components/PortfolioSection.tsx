@@ -54,13 +54,15 @@ export function PortfolioSection() {
                     ))}
                   </div>
                 </CardContent>
-                <CardFooter className="p-6 pt-0">
-                  <Button asChild variant="outline" className="w-full">
-                    <Link href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                      <Github className="mr-2 h-4 w-4" /> View on GitHub
-                    </Link>
-                  </Button>
-                </CardFooter>
+                {project.githubLink && (
+                  <CardFooter className="p-6 pt-0">
+                    <Button asChild variant="outline" className="w-full">
+                      <Link href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                        <Github className="mr-2 h-4 w-4" /> View on GitHub
+                      </Link>
+                    </Button>
+                  </CardFooter>
+                )}
               </Card>
             );
           })}

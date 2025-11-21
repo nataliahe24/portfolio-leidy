@@ -7,6 +7,7 @@ import {
   Cog,
   Paintbrush,
   Smartphone,
+  BarChart3,
 } from "lucide-react";
 
 export const projects = [
@@ -61,6 +62,21 @@ export const projects = [
     githubLink: "https://github.com/nataliahe24/project-front-app",
     image: "project4",
   },
+  {
+    id: "project-5",
+    title: "Data Analytics Solutions",
+    description:
+      "Comprehensive data analysis and visualization projects leveraging SQL databases, Looker Studio dashboards, and Google Sheets automation. Includes custom reporting, data transformation pipelines, and automated workflows using App Script for business intelligence and decision-making.",
+    technologies: [
+      "SQL",
+      "Looker Studio",
+      "Google Sheets",
+      "App Script",
+      "Data Visualization",
+      "Business Intelligence",
+    ],
+    image: "project5",
+  },
 ];
 
 export const skills = [
@@ -110,6 +126,12 @@ export const services = [
     description:
       "Delivering end-to-end web applications, from database design to UI implementation, for a complete digital product.",
     icon: Smartphone,
+  },
+  {
+    title: "Data Analyst",
+    description:
+      "Providing data-driven insights through SQL queries, interactive dashboards in Looker Studio, and automated reporting with Google Sheets and App Script for informed business decisions.",
+    icon: BarChart3,
   },
 ];
 

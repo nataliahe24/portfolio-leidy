@@ -27,6 +27,12 @@
       "description": "Project Management Dashboard with AI.",
       "imageUrl": "/assets/project4.png",
       "imageHint": "Project Manager Dashboard"
+    },
+    {
+      "id": "project5",
+      "description": "Data Analytics Solutions project.",
+      "imageUrl": "/assets/project5.png",
+      "imageHint": "Data Analytics Dashboard"
     }
   ]
 }

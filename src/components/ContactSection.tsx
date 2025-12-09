@@ -22,7 +22,9 @@ import emailjs from "@emailjs/browser";
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Please enter a valid email address." }),
-  message: z.string().min(10, { message: "Message must be at least 10 characters." }),
+  message: z
+    .string()
+    .min(10, { message: "Message must be at least 10 characters." }),
 });
 
 export function ContactSection() {
@@ -77,23 +79,30 @@ export function ContactSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-12 md:grid-cols-2">
           <div className="space-y-4">
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 bg-clip-text text-transparent">
               Let's Connect
             </h2>
             <p className="max-w-[600px] text-foreground/70 md:text-xl/relaxed">
-              Have a project in mind or just want to say hello? Fill out the form, and I'll get back to you as soon as possible.
+              Have a project in mind or just want to say hello? Fill out the
+              form, and I'll get back to you as soon as possible.
             </p>
             <p className="text-foreground/70 md:text-xl/relaxed">
-              I'm currently available for freelance opportunities and collaborations.
+              I'm currently available for freelance opportunities and
+              collaborations.
             </p>
           </div>
           <Card className="shadow-lg">
             <CardHeader>
-                <CardTitle className="font-headline">Send a Message</CardTitle>
+              <CardTitle className="font-headline sm:text-3xl text-center bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 bg-clip-text text-transparent">
+                Send a Message
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                <form
+                  onSubmit={form.handleSubmit(onSubmit)}
+                  className="space-y-6"
+                >
                   <FormField
                     control={form.control}
                     name="name"
@@ -114,7 +123,10 @@ export function ContactSection() {
                       <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="your.email@example.com" {...field} />
+                          <Input
+                            placeholder="your.email@example.com"
+                            {...field}
+                          />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -127,15 +139,25 @@ export function ContactSection() {
                       <FormItem>
                         <FormLabel>Message</FormLabel>
                         <FormControl>
-                          <Textarea placeholder="Tell me about your project..." {...field} rows={5} />
+                          <Textarea
+                            placeholder="Tell me about your project..."
+                            {...field}
+                            rows={5}
+                          />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
                     )}
                   />
-                  <Button type="submit" className="w-full" disabled={form.formState.isSubmitting}>
+                  <Button
+                    type="submit"
+                    className="w-full bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 hover:from-blue-700 hover:via-cyan-600 hover:to-blue-700 text-white border-none shadow-lg transition-all duration-300"
+                    disabled={form.formState.isSubmitting}
+                  >
                     <Send className="mr-2 h-4 w-4" />
-                    {form.formState.isSubmitting ? "Sending..." : "Send Message"}
+                    {form.formState.isSubmitting
+                      ? "Sending..."
+                      : "Send Message"}
                   </Button>
                 </form>
               </Form>

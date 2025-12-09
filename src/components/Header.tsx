@@ -7,7 +7,7 @@ import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import React from "react";
 
 const navLinks = [
-  { href: "#about", label: "About" },
+  { href: "#about-me", label: "About" },
   { href: "#projects", label: "Projects" },
   { href: "#skills", label: "Skills" },
   { href: "#services", label: "Services" },
@@ -34,7 +34,10 @@ export function Header() {
       }`}
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="font-headline text-xl font-bold text-primary">
+        <Link
+          href="/"
+          className="font-headline text-xl font-bold bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 bg-clip-text text-transparent"
+        >
           Leidy's Portfolio
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
@@ -47,12 +50,6 @@ export function Header() {
               {link.label}
             </a>
           ))}
-          <Button asChild variant="outline" size="sm">
-            <Link href="/recommendations">
-              <BrainCircuit className="mr-2 h-4 w-4" />
-              AI Recommender
-            </Link>
-          </Button>
         </nav>
         <div className="md:hidden">
           <Sheet>
@@ -66,7 +63,7 @@ export function Header() {
               <nav className="flex flex-col gap-6 p-6 pt-12">
                 <Link
                   href="/"
-                  className="mb-4 font-headline text-xl font-bold text-primary"
+                  className="mb-4 font-headline sm:text-5xl bg-gradient-to-r from-blue-600 via-cyan-500"
                 >
                   Leidy's Portfolio
                 </Link>
@@ -79,12 +76,6 @@ export function Header() {
                     {link.label}
                   </a>
                 ))}
-                <Button asChild variant="default" className="mt-4">
-                  <Link href="/recommendations">
-                    <BrainCircuit className="mr-2 h-4 w-4" />
-                    AI Recommender
-                  </Link>
-                </Button>
               </nav>
             </SheetContent>
           </Sheet>

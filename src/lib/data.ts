@@ -138,4 +138,5 @@ export const services = [
 export const socialLinks = {
   github: "https://github.com/nataliahe24",
   linkedin: "https://www.linkedin.com/in/leidy-natalia-henao-rojas-04250a215/",
+  codepen: "https://codepen.io/natalia24",
 };

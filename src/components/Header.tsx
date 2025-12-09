@@ -63,7 +63,7 @@ export function Header() {
               <nav className="flex flex-col gap-6 p-6 pt-12">
                 <Link
                   href="/"
-                  className="mb-4 font-headline sm:text-5xl bg-gradient-to-r from-blue-600 via-cyan-500"
+                  className="mb-4 font-headline text-xl font-bold text-primary"
                 >
                   Leidy's Portfolio
                 </Link>

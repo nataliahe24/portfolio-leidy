@@ -10,25 +10,27 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="w-full py-20 md:py-32 bg-gradient-to-br from-slate-900 via-blue-900 to-cyan-500"
+      className="w-full py-20 md:py-32 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"
     >
       <div className="container mx-auto grid grid-cols-1 items-center gap-8 px-4 md:grid-cols-2 md:px-6">
         <div className="relative mx-auto w-64 h-64 md:w-80 md:h-80">
           {profileImage && (
-            <Image
-              src={profileImage.imageUrl}
-              alt={profileImage.description}
-              width={320}
-              height={320}
-              className="rounded-full object-cover shadow-2xl border-4 border-cyan-400/50"
-              data-ai-hint={profileImage.imageHint}
-              priority
-            />
+            <div className="w-full h-full rounded-full p-1 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 shadow-2xl">
+              <Image
+                src={profileImage.imageUrl}
+                alt={profileImage.description}
+                width={320}
+                height={320}
+                className="rounded-full object-cover w-full h-full"
+                data-ai-hint={profileImage.imageHint}
+                priority
+              />
+            </div>
           )}
           <div className="absolute inset-0 rounded-full border-4 border-cyan-400/20 animate-pulse"></div>
         </div>
         <div className="space-y-4 text-center md:text-left">
-          <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white">
+          <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 bg-clip-text text-transparent">
             Leidy's Portfolio
           </h1>
           <p className="font-headline text-2xl font-medium text-white">

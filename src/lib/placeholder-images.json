@@ -33,6 +33,30 @@
       "description": "Data Analytics Solutions project.",
       "imageUrl": "/assets/project5.png",
       "imageHint": "Data Analytics Dashboard"
+    },
+    {
+      "id": "project6-1",
+      "description": "Casino performance dashboard with netwin KPIs.",
+      "imageUrl": "/assets/DASHBOARD.png",
+      "imageHint": "Gaming performance dashboard"
+    },
+    {
+      "id": "project6-2",
+      "description": "Prize distribution dashboard by date and room.",
+      "imageUrl": "/assets/DASHBOARD 2.png",
+      "imageHint": "Prize payout dashboard"
+    },
+    {
+      "id": "project6-3",
+      "description": "Cost and expense analysis dashboard.",
+      "imageUrl": "/assets/DASHBOARD 3.png",
+      "imageHint": "Cost analysis dashboard"
+    },
+    {
+      "id": "project6-4",
+      "description": "Net income by room and month dashboard.",
+      "imageUrl": "/assets/DASHBOARD 4.png",
+      "imageHint": "Net income dashboard"
     }
   ]
 }

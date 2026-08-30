@@ -10,7 +10,16 @@ import {
   BarChart3,
 } from "lucide-react";
 
-export const projects = [
+export type Project = {
+  id: string;
+  title: string;
+  description: string;
+  technologies: string[];
+  githubLink?: string;
+  images: string[];
+};
+
+export const projects: Project[] = [
   {
     id: "project-1",
     title: "Real Estate App",
@@ -26,7 +35,7 @@ export const projects = [
       "HTML",
     ],
     githubLink: "https://github.com/nataliahe24/Real-estate-app",
-    image: "project1",
+    images: ["project1"],
   },
   {
     id: "project-2",
@@ -35,7 +44,7 @@ export const projects = [
       "A Java-based application built with Gradle. Features order management, image upload capabilities, and comprehensive error handling API.",
     technologies: ["Java", "Angular", "SCSS", "HTML"],
     githubLink: "https://github.com/nataliahe24/MyFritterApp",
-    image: "project2",
+    images: ["project2"],
   },
   {
     id: "project-3",
@@ -44,7 +53,7 @@ export const projects = [
       "A TypeScript-based REST API for task management. Provides endpoints for creating, updating, and managing tasks with full CRUD operations.",
     technologies: ["TypeScript", "JavaScript", "Node.js", "REST API"],
     githubLink: "https://github.com/nataliahe24/task-api",
-    image: "project3",
+    images: ["project3"],
   },
   {
     id: "project-4",
@@ -60,7 +69,7 @@ export const projects = [
       "Google Gemini AI",
     ],
     githubLink: "https://github.com/nataliahe24/project-front-app",
-    image: "project4",
+    images: ["project4"],
   },
   {
     id: "project-5",
@@ -75,7 +84,20 @@ export const projects = [
       "Data Visualization",
       "Business Intelligence",
     ],
-    image: "project5",
+    images: ["project5", "project5-1"],
+  },
+  {
+    id: "project-6",
+    title: "Casino Performance Analytics",
+    description:
+      "Interactive BI dashboards for casino operations. Track income, payouts, netwin, and margin; follow prize and revenue trends by date; compare rooms, games, and machine types; and analyze costs vs. net income with sala, month, and year filters.",
+    technologies: [
+      "Power BI",
+      "SQL",
+      "Data Visualization",
+      "Business Intelligence",
+    ],
+    images: ["project6-1", "project6-2", "project6-3", "project6-4"],
   },
 ];
 

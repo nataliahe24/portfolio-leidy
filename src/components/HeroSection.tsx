@@ -31,15 +31,19 @@ export function HeroSection() {
         </div>
         <div className="space-y-4 text-center md:text-left">
           <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 bg-clip-text text-transparent">
-            Leidy's Portfolio
+            Portafolio de Leidy
           </h1>
           <p className="font-headline text-2xl font-medium text-white">
-            Full-Stack Developer
+            Data & Technology Professional
           </p>
           <p className="max-w-[600px] text-blue-100/80 md:text-xl/relaxed">
-            I build elegant and efficient web solutions. With a passion for
-            clean code and user-centric design, I transform complex problems
-            into beautiful, intuitive digital experiences.
+            I build data-driven solutions that combine{" "}
+            <strong>
+              analytics, automation, artificial intelligence, and technology
+            </strong>{" "}
+            to solve real-world business problems. I enjoy transforming complex
+            information into useful insights, improving processes, and creating
+            digital solutions that support better decision-making.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center md:justify-start pt-4">
             <Button

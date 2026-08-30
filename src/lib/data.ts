@@ -151,28 +151,28 @@ export const skills = [
 
 export const services = [
   {
-    title: "Frontend Development",
+    title: "Data Analysis",
     description:
-      "Creating beautiful, responsive, and performant user interfaces with modern frameworks like React and Next.js.",
-    icon: Paintbrush,
-  },
-  {
-    title: "Backend Development",
-    description:
-      "Building robust, scalable, and secure server-side applications and APIs using Java, Spring Boot, and RESTful APIs principles.",
-    icon: Server,
-  },
-  {
-    title: "Full-Stack Solutions",
-    description:
-      "Delivering end-to-end web applications, from database design to UI implementation, for a complete digital product.",
-    icon: Smartphone,
-  },
-  {
-    title: "Data Analyst",
-    description:
-      "Providing data-driven insights through SQL queries, interactive dashboards in Looker Studio, and automated reporting with Google Sheets and App Script for informed business decisions.",
+      "I turn data into actionable insights through dashboards, KPIs, trend analysis, and data cleaning and transformation processes that support smarter business decisions.",
     icon: BarChart3,
+  },
+  {
+    title: "Automation & AI",
+    description:
+      "I design solutions to automate repetitive tasks and optimize workflows by integrating automation tools, scripting, and artificial intelligence to improve efficiency and scalability.",
+    icon: Cog,
+  },
+  {
+    title: "Business & Product Analysis",
+    description:
+      "I analyze business needs, identify improvement opportunities, and help define digital solutions that align with user needs, operational processes, and strategic objectives.",
+    icon: Target,
+  },
+  {
+    title: "Digital Solutions Development",
+    description:
+      "I use my web development and technology skills to build prototypes, tools, and digital solutions that transform ideas and business needs into functional, user-centered products.",
+    icon: Smartphone,
   },
 ];
 

@@ -88,12 +88,13 @@ export const projects: Project[] = [
   },
   {
     id: "project-6",
-    title: "Casino Performance Analytics",
+    title: "Financial Dashboard & Data Automation",
     description:
-      "Interactive BI dashboards for casino operations. Track income, payouts, netwin, and margin; follow prize and revenue trends by date; compare rooms, games, and machine types; and analyze costs vs. net income with sala, month, and year filters.",
+      "Designed and developed a dashboard for analyzing Costs, Expenses, and Net Income,incorporating KPIs, visualizations, and dynamic filters. I also built a master data repository, performing data cleaning, transformation, and normalization processes, and automated the daily extraction and consolidation of reports.The project helped centralize information, optimize the data flow, and reduce manual intervention in the dashboard update process.",
     technologies: [
-      "Power BI",
-      "SQL",
+      "Looker Studio",
+      "Google Sheets",
+      "Google Apps Script",
       "Data Visualization",
       "Business Intelligence",
     ],

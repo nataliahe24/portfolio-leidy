@@ -8,6 +8,10 @@ import {
   Paintbrush,
   Smartphone,
   BarChart3,
+  PieChart,
+  Filter,
+  Target,
+  Table,
 } from "lucide-react";
 
 export type Project = {
@@ -20,6 +24,35 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    id: "project-5",
+    title: "Sales Analytics & Performance Dashboard",
+    description:
+      "Developed an automated sales analysis and performance dashboard for a travel agency. The solution extracts and consolidates sales information from Excel reports using scripts, organizes and transforms the data, and presents it through an interactive dashboard. Includes sales KPIs, performance indicators, goal tracking, and progress toward targets, allowing the agency to monitor sales performance and identify opportunities for improvement.",
+    technologies: [
+      "Looker Studio",
+      "Google Sheets",
+      "App Script",
+      "Data Visualization",
+      "KPI Analysis",
+      "Business Intelligence",
+    ],
+    images: ["project5", "project5-1", "project5"],
+  },
+  {
+    id: "project-6",
+    title: "Financial Dashboard & Data Automation",
+    description:
+      "Designed and developed a dashboard for analyzing Costs, Expenses, and Net Income,incorporating KPIs, visualizations, and dynamic filters. I also built a master data repository, performing data cleaning, transformation, and normalization processes, and automated the daily extraction and consolidation of reports.The project helped centralize information, optimize the data flow, and reduce manual intervention in the dashboard update process.",
+    technologies: [
+      "Looker Studio",
+      "Google Sheets",
+      "Google Apps Script",
+      "Data Visualization",
+      "Business Intelligence",
+    ],
+    images: ["project6-1", "project6-2", "project6-3", "project6-4"],
+  },
   {
     id: "project-1",
     title: "Real Estate App",
@@ -71,48 +104,33 @@ export const projects: Project[] = [
     githubLink: "https://github.com/nataliahe24/project-front-app",
     images: ["project4"],
   },
-  {
-    id: "project-5",
-    title: "Data Analytics Solutions",
-    description:
-      "Comprehensive data analysis and visualization projects leveraging SQL databases, Looker Studio dashboards, and Google Sheets automation. Includes custom reporting, data transformation pipelines, and automated workflows using App Script for business intelligence and decision-making.",
-    technologies: [
-      "SQL",
-      "Looker Studio",
-      "Google Sheets",
-      "App Script",
-      "Data Visualization",
-      "Business Intelligence",
-    ],
-    images: ["project5", "project5-1"],
-  },
-  {
-    id: "project-6",
-    title: "Financial Dashboard & Data Automation",
-    description:
-      "Designed and developed a dashboard for analyzing Costs, Expenses, and Net Income,incorporating KPIs, visualizations, and dynamic filters. I also built a master data repository, performing data cleaning, transformation, and normalization processes, and automated the daily extraction and consolidation of reports.The project helped centralize information, optimize the data flow, and reduce manual intervention in the dashboard update process.",
-    technologies: [
-      "Looker Studio",
-      "Google Sheets",
-      "Google Apps Script",
-      "Data Visualization",
-      "Business Intelligence",
-    ],
-    images: ["project6-1", "project6-2", "project6-3", "project6-4"],
-  },
 ];
 
 export const skills = [
   {
+    category: "Data Analytics & BI",
+    items: [
+      { name: "Looker Studio", icon: BarChart3 },
+      { name: "Power BI", icon: BarChart3 },
+      { name: "Data Visualization", icon: PieChart },
+      { name: "Data Cleaning & Transformation", icon: Filter },
+      { name: "KPI Development & Analysis", icon: Target },
+      { name: "Google Sheets & Excel", icon: Table },
+      { name: "SQL", icon: Database },
+      { name: "Google Apps Script", icon: Code },
+    ],
+  },
+
+  {
     category: "Frontend",
     items: [
       { name: "React / Next.js", icon: Code },
-      { name: "TypeScript", icon: Code },
       { name: "JavaScript", icon: Code },
       { name: "HTML & CSS", icon: Code },
       { name: "Tailwind CSS", icon: Paintbrush },
     ],
   },
+
   {
     category: "Backend",
     items: [
@@ -121,12 +139,12 @@ export const skills = [
       { name: "RESTful API", icon: Cog },
     ],
   },
+
   {
     category: "Databases & Tools",
     items: [
       { name: "MongoDB, PostgreSQL & MySQL", icon: Database },
       { name: "Git & GitHub", icon: Github },
-      { name: "Jest / Testing Library", icon: Cog },
     ],
   },
 ];
